@@ -74,6 +74,8 @@ img {
     right: 0;
     z-index: 1000;
     background: var(--color-black); /* pure black */
+    /* remove blur */
+    border-bottom: 1px solid rgba(201, 168, 76, 0.15);
     
 }
 
