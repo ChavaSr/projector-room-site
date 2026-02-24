@@ -90,9 +90,9 @@ img {
 }
 
 .nav-logo-img {
-    height: 200px;      /* adjust as needed */
+    height: 100px;      /* adjust as needed */
     width: auto;
-    margin-right: 5px; /* space between logo and text */
+    margin-right: 0px; /* space between logo and text */
     vertical-align: middle;
 }
 
