@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projector Room Film Society</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <span class="nav-logo-icon">&#9881;</span>
+                <span class="nav-logo-text">Projector Room</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#weekly-gems">Weekly Gems</a></li>
+                <li><a href="#acting-spotlight">Spotlight</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Est. 2025</p>
+            <h1 class="hero-title">Projector Room<br>Film Society</h1>
+            <div class="hero-divider">
+                <span class="divider-star">&#9733;</span>
+            </div>
+            <p class="hero-tagline">Where Cinema Lives</p>
+            <a href="#about" class="btn btn-primary">Discover More</a>
+        </div>
+    </header>
+
+    <!-- Introduction / About -->
+    <section id="about" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Welcome to the Society</h2>
+            <div class="intro-content">
+                <p>The Projector Room Film Society is a community of cinephiles dedicated to the shared experience of watching and discussing great cinema. We gather fortnightly to screen carefully chosen films in an intimate setting, followed by lively conversation.</p>
+                <p>From silent-era masterpieces to contemporary world cinema, our programme spans the full breadth of the art form. Whether you are a seasoned critic or simply love a good story told on screen, you are welcome here.</p>
+                <div class="intro-features">
+                    <div class="intro-feature">
+                        <span class="intro-feature-icon">&#127902;</span>
+                        <h3>Curated Screenings</h3>
+                        <p>Handpicked films spanning every era and genre of cinema.</p>
+                    </div>
+                    <div class="intro-feature">
+                        <span class="intro-feature-icon">&#128172;</span>
+                        <h3>Post-Film Discussion</h3>
+                        <p>Thoughtful conversation and debate after every screening.</p>
+                    </div>
+                    <div class="intro-feature">
+                        <span class="intro-feature-icon">&#127863;</span>
+                        <h3>Social Events</h3>
+                        <p>Seasonal gatherings, themed nights, and guest speakers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Gems -->
+    <section id="weekly-gems" class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Weekly Gems</h2>
+            <p class="section-intro section-intro-light">Each week we shine a light on a remarkable film that deserves a wider audience &mdash; a hidden treasure waiting to be discovered.</p>
+            <div class="highlight-card">
+                <div class="highlight-text">
+                    <span class="highlight-label">This Week&rsquo;s Gem</span>
+                    <h3 class="highlight-name">The Fall (2006)</h3>
+                    <p>Tarsem Singh's visually breathtaking odyssey follows a bedridden stuntman who spins an epic tale of adventure for a young girl in a 1920s Los Angeles hospital. Shot across over twenty countries with no CGI, the film is a love letter to the power of storytelling and the imagination. Wildly underseen upon release, it remains one of the most gorgeous films ever committed to celluloid.</p>
+                </div>
+                <div class="highlight-image">
+                    <div class="highlight-poster-placeholder">
+                        <span>&#127916;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight-cta">
+                <a href="/weekly-gems.html" class="btn btn-primary">View All Gems</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acting Spotlight -->
+    <section id="acting-spotlight" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Acting Spotlight</h2>
+            <p class="section-intro">Each week we celebrate a performer whose craft elevates every frame they inhabit.</p>
+            <div class="highlight-card highlight-card-dark">
+                <div class="highlight-text">
+                    <span class="highlight-label">This Week&rsquo;s Spotlight</span>
+                    <h3 class="highlight-name">Toshir&ocirc; Mifune</h3>
+                    <p>The volcanic force at the heart of Akira Kurosawa's greatest works, Mifune brought an unmatched physicality and emotional range to every role. From the swaggering ronin in <em>Yojimbo</em> to the desperate bandit in <em>Rashomon</em>, his performances redefined what screen acting could be. His influence stretches from Clint Eastwood's Man with No Name to the entire ethos of the modern action hero.</p>
+                </div>
+                <div class="highlight-image">
+                    <div class="highlight-poster-placeholder">
+                        <span>&#127917;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight-cta">
+                <a href="/acting-spotlight.html" class="btn btn-outline">View All Spotlights</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-intro">Questions, suggestions, or want to propose a screening? We would love to hear from you.</p>
+            <div class="contact-layout">
+                <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <h3>Venue</h3>
+                        <p>The Projector Room<br>123 Cinema Lane<br>Your Town</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Screenings</h3>
+                        <p>Every other Friday<br>Doors 7:00 PM &middot; Film 7:30 PM</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>hello@projectorroomfilms.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="nav-logo-icon">&#9881;</span>
+                    <span>Projector Room Film Society</span>
+                </div>
+                <p class="footer-copy">&copy; 2025 Projector Room Film Society. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
