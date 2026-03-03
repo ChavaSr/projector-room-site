@@ -189,6 +189,13 @@ img {
     margin-bottom: 1.5rem;
 }
 
+.hero-logo {
+    display: block;
+    max-width: var(--hero-logo-size, 400px); /* <-- change this variable to adjust size */
+    height: auto;
+    margin: 0 auto 1rem auto; /* center logo and add spacing */
+}
+
 .hero-title {
     font-family: var(--font-display);
     font-size: clamp(2.8rem, 7vw, 5.5rem);
@@ -213,6 +220,29 @@ img {
     width: 80px;
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+}
+
+/* Split layout for article cards: text left, image right */
+.split-card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.split-card .highlight-text {
+    flex: 1 1 60%;
+}
+
+.split-card .highlight-image {
+    flex: 1 1 35%;
+}
+
+.split-card .highlight-image img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .divider-star {
